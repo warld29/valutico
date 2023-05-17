@@ -9,12 +9,14 @@ body {
 }
 
 .header {
-  height: 12vh;
-  width: 90%;
+  height: 15vh;
+  width: 95%;
   background-color: white;
   padding: 20px 15px;
   margin: 40px auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .list-item {
@@ -27,10 +29,15 @@ body {
   align-items: center;
   gap: 2px;
   padding-left: 15%;
+  margin: 0%;
 }
 
 .list-item ul li {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
 }
 
 .list-item ul li a {
@@ -39,5 +46,23 @@ body {
 }
 
 .list-item ul li:nth-child(4) {
-  padding-right: 15%;
+  padding-right: 14%;
+}
+
+button {
+  background-color: green;
+  color: white;
+  height: 40px;
+  border: none;
+  width: 150px;
+  border-radius: 7px;
+  margin-bottom: 5%;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
 }
