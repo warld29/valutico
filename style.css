@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(216, 214, 214);
+}
+
+.header {
+  height: 12vh;
+  width: 90%;
+  background-color: white;
+  padding: 20px 15px;
+  margin: 40px auto;
+  display: flex;
+}
+
+.list-item {
+  width: 100%;
+}
+
+.list-item ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+  padding-left: 15%;
+}
+
+.list-item ul li {
+  list-style: none;
+}
+
+.list-item ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-item ul li:nth-child(4) {
+  padding-right: 15%;
+}
