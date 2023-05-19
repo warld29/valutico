@@ -14,7 +14,8 @@ body {
   width: 95%;
   background-color: white;
   padding: 20px 15px;
-  margin: 40px auto;
+  margin: 0 40px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +60,7 @@ body {
 
 .btn {
   width: 25%;
+  margin-left: 15px;
 }
 
 .btn button {
@@ -70,6 +72,7 @@ body {
   border: 2px solid green;
   background-color: green;
   color: white;
+  margin-left: 15px;
 }
 
 .btn button:hover {
@@ -79,16 +82,30 @@ body {
 }
 
 .container {
-  height: 90vh;
+  height: 97vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  margin: 0 40px;
 }
 
 .intro {
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
+}
+.intro h3 {
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.intro p {
+  text-align: center;
+  padding: 15px;
+  line-height: 25px;
 }
 
 .bon {
@@ -96,16 +113,27 @@ body {
   align-items: center;
   justify-content: center;
   gap: 15px;
+  text-align: center;
 }
 
 .bon button {
   display: flex;
-  width: 250px;
+  justify-content: center;
+  align-items: center;
+  width: 510px;
   height: 50px;
   border-radius: 25px;
+  text-align: center;
+}
+
+.intro .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro img {
-  height: 250px;
-  width: 600px;
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
 }
