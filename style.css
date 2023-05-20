@@ -130,6 +130,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 20%;
 }
 
 .intro img {
